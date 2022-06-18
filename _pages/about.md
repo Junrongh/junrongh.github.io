@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a team manager, engineer and researcher at [Manycore Tech Inc.](https://www.kujiale.com/). I obtained my master’s degree from [Carnegie Mellon University](https://www.cmu.edu/) in Pittsburgh, PA. Before that, I received my bachelor’s degree from [Zhejiang University](https://www.zju.edu.cn/). I am vray fortunate to work in ZJU-Kujiale Joint Lab of CG&AI with [Prof. Wang Rui](http://www.cad.zju.edu.cn/home/rwang/)
+I am currently a team manager, engineer and researcher at [Manycore Tech Inc.](https://www.kujiale.com/). I obtained my master’s degree from [Carnegie Mellon University](https://www.cmu.edu/) in Pittsburgh, PA. Before that, I received my bachelor’s degree from [Zhejiang University](https://www.zju.edu.cn/). I am very fortunate to work in ZJU-Kujiale Joint Lab of CG&AI with [Prof. Wang Rui](http://www.cad.zju.edu.cn/home/rwang/)
 
 Research Interests
 ======
