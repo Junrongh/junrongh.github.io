@@ -1,0 +1,83 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <font size='4' itemprop="headline"><strong>
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        {{ title }}
+      {% endif %}
+    </strong></font>
+
+    {% if post.author %}
+      <br><font size='3'>{{ post.author }}</font>
+    {% endif %}
+
+    {% if post.conf %}
+      <br><font size='3'>{{ post.conf }}{% if post.conf_shortname %}
+        ({{ post.conf_shortname}})
+      {% endif %}, {{post.year}}</font>
+    {% endif %}
+    
+    {% if post.highlight %}
+    <br><font size='3' color="Tomato">{{post.highlight}}</font>
+    {% endif %}
+
+    {% if post.additional %}<br>
+      {% if post.arxiv %}
+      <font size='3' color="LightSkyBlue"><a href=" {{ post.arxiv }} " >[arXiv]</a></font>
+      {% endif %}
+      {% if post.paper %}
+      <font size='3' color="LightSkyBlue"><a href=" {{ post.paper }} " >[pdf]</a></font>
+      {% endif %}
+      {% if post.supp %}
+      <font size='3' color="LightSkyBlue"><a href=" {{ post.supp }} " >[supp]</a></font>
+      {% endif %}
+      {% if post.code %}
+      <font size='3' color="LightSkyBlue"><a href=" {{ post.code }} " >[code]</a></font>
+      {% endif %}
+      {% if post.data %}
+      <font size='3' color="LightSkyBlue"><a href=" {{ post.data }} " >[data]</a></font>
+      {% endif %}
+      {% if post.poster %}
+      <font size='3' color="LightSkyBlue"><a href=" {{ post.poster }} " >[poster]</a></font>
+      {% endif %}
+      {% if post.slide %}
+      <font size='3' color="LightSkyBlue"><a href=" {{ post.slide }} " >[slide]</a></font>
+      {% endif %}
+      {% if post.video %}
+      <font size='3' color="LightSkyBlue"><a href=" {{ post.video }} " >[video]</a></font>
+      {% endif %}
+      {% if post.blog %}
+      <font size='3' color="LightSkyBlue"><a href=" {{ post.blog }} " >[blog]</a></font>
+      {% endif %}
+    
+  {% endif %}
+  <hr width="80%">
+  </article>
+</div>

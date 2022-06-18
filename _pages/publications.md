@@ -5,12 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% if site.author.googlescholar and site.author.semanticscholar %}
+  You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar profile</a> or <a href="{{site.author.semanticscholar}}">Semantic Scholar profile</a>.
 {% endif %}
 
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% include archive-publication.html %}
 {% endfor %}
+
+<!-- <font size='3'>* co-first author</font> -->
