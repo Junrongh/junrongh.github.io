@@ -68,7 +68,7 @@ cv2.imwrite('output.exr', res.astype('float32'))
 
 This encoder and decoder do works well in most cases, the appearance of the lightmap looks good, and the network transmission looks fine. However, this algorithm has some limitations. As we compare the decoded lightmap with the original one, we found the difference
 
-- We cannot use jpg format to save lightmap since jpg format involves is a lossy compression. See [JPEG compression](https://www.youtube.com/watch?v=0me3guauqOU) fpr details.
+- We cannot use jpg format to save lightmap since jpg format involves is a lossy compression. See [JPEG compression](https://www.youtube.com/watch?v=0me3guauqOU) for details.
 
 | Origin Lightmap 2.08M | jpg 181K | Webp 372K |
 | --- | --- | --- |
