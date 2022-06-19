@@ -12,8 +12,7 @@ I am currently a team manager, engineer and researcher at [Manycore Tech Inc.](h
 
 Research Interests
 ======
-My researh interests includes computer graphics and computer visions. Including searching material seamlessly exchange methods among between renderer and applications, developing a top-class real-time render engine based on the SOTA techniques. I am now interested in high dimensional neural graphics primitives for NeRF applications.
-
+My researh interests includes computer graphics and computer visions. Specifically, I developed a material seamlessly exchange system between renderers and applications by appearance driven methods. I also lead an R&D team to develop a top-class real-time render engine based on the SOTA techniques. I am now interested in high dimensional neural graphics primitives for NeRF applications.
 
 
 <!-- A data-driven personal website
