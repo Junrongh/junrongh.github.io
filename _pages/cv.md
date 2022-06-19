@@ -16,6 +16,8 @@ Education
 * M.S. <strong>Carnegie Mellon University</strong>, Pittsburgh, PA, 2016.08-2017.12 <small>(graduate half year in advance)</small>
 * B.S. <strong>Zhejiang University</strong>, Hangzhou, P.R. China, 2012.09-2016.07
 
+<small>You can also download my academic transcript here [[ZJU](/files/cv/zju_transcript.pdf)], [[CMU](/files/cv/cmu_transcript.pdf)]</small>
+
 Work experience
 ======
 * KooLab, Hangzhou Manycore Tech Co., Ltd
