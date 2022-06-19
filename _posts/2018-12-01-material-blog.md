@@ -20,7 +20,7 @@ In order to allow users explore their V-Ray assets, particularly material assets
 
 ## Parameters
 
-Material representation in V-Ray can be expressed as different BRDFs. However, mostly users are recommended to use a template called BRDFVRayMtl, as shown below in `.vrscene` file.
+Material representation in V-Ray can be expressed as different BRDFs. However, mostly users are recommended to use a template called [BRDFVRayMtl](https://docs.chaos.com/display/VMAX/VRayMtl), as shown below in `.vrscene` file.
 
 ```
 BRDFVRayMtl vraymtl {
