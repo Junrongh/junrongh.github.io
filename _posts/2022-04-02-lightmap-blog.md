@@ -19,7 +19,7 @@ Usually, lightmap is stored as `.exr` or `.hdr` file since it will need higher p
 
 > [Unreal Engine Lightmap Compression](https://github.com/EpicGames/UnrealEngine/blob/release/Engine/Shaders/Private/LightmapCommon.ush)
 
-However, this compression still has some limitations.
+**However, this compression still has some limitations.**
 
 ## How did UE4 encode and decode a lightmap
 
