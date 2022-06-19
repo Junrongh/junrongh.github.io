@@ -107,6 +107,18 @@ Finally, we had a well translation result in most cases:
 | ![vr](/files/images/posts/5a1e5412bc974b5bd3a13006.png) | ![ue](/files/images/posts/5a1e5412bc974b5bd3a13006_pbr_r.png) | ![vr](/files/images/posts/5a728caf4242a67d6cbf5aa0.png) | ![ue](/files/images/posts/5a728caf4242a67d6cbf5aa0_pbr_r.png) |
 | ![vr](/files/images/posts/5a925eebb5327622b07f6a89.png) | ![ue](/files/images/posts/5a925eebb5327622b07f6a89_pbr_r.png) | ![vr](/files/images/posts/5a9747e652b61463f5392411.png) | ![ue](/files/images/posts/5a9747e652b61463f5392411_pbr_r.png) |
 
+Compare with [V-Ray for Unreal plugin](https://www.chaos.com/vray/unreal), our translation performs better, especially in roughness term:
+_<small>NOTE: auto exposure not disabled in UE4 result, ours&plugin result appear brighter</small>_
+
+| V-Ray | Ours | V-Ray for Unreal Plugin |
+| --- | --- | --- |
+| ![vr](/files/images/posts/62a8094b6d8f3a000178cadf.jpg) | ![ours](/files/images/posts/62a8094b6d8f3a000178cadf_ours.png) | ![plugin](/files/images/posts/62a8094b6d8f3a000178cadf_plugin.png) |
+| ![vr](/files/images/posts/62a8094b6d8f3a000178cae4.jpg) | ![ours](/files/images/posts/62a8094b6d8f3a000178cae4_ours.png) | ![plugin](/files/images/posts/62a8094b6d8f3a000178cae4_plugin.png) |
+| ![vr](/files/images/posts/62a809486d8f3a000178cadc.jpg) | ![ours](/files/images/posts/62a809486d8f3a000178cadc_ours.png) | ![plugin](/files/images/posts/62a809486d8f3a000178cadc_plugin.png) |
+
+
+## Limitations
+
 However, this translation cannot perform well in all cases, for example:
 
 | V-Ray | UE4 | V-Ray | UE4 |
@@ -118,6 +130,12 @@ It can be explained by the theory of degree of freedom. In `BRDFVRayMtl`, it has
 
 ## Discussion
 
+Different render applications have their own implementations of material BRDFs, while some of them are not open sourced, e.g. Chaos V-Ray. Chaos did implemented a [V-Ray for Unreal plugin](https://www.chaos.com/vray/unreal) to allow their users to export their V-Ray assets to UE4, but as they described, 
 
+> Automatically converts V-Ray materials to approximate Unreal materials. Original V-Ray materials are used when rendering.
+
+the appearance of material in UE4 real-time rendering is not guaranteed.
+
+In this blog, we generally proposed a workflow that allow material representation translation between different render applications. 
 
 ------
