@@ -28,10 +28,10 @@ Work experience
 Research
 ======
 * Research member of ZJU-Kujiale Joint Lab of CG&AI 
-  * Material BRDF presentation mappings among different renderer.
+  * [Material BRDF presentation mappings among different renderer](/posts/2018-12-01-material-blog)
     - In order to exchange material seamlessly among between renderer and applications, we proposed a appearance driven method for approximate translation of material BRDFs
     - Result: Built a system for converting v-ray BRDFVRayMtl into standard PBR material; more than 30 million materials in product environment have been processed.
-  * High Dimensional Neural Graphics Primitives for NeRF Applications (in process, targeting Sig'23)
+  * [High Dimensional Neural Graphics Primitives for NeRF Applications](/posts/2022-06-01-nerf) (in process, targeting Sig'23)
     - Given high degree of freedom representation of 3D scene, including light properties, complicated material BRDF, search a NeRF representation for interactive rendering. 
 
 Teaching
