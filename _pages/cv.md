@@ -13,8 +13,9 @@ redirect_from:
 
 Education
 ======
+* PhD. <strong>City University of Hong Kong</strong>, Hong Kong, China, 2023.09-present
 * M.S. <strong>Carnegie Mellon University</strong>, Pittsburgh, PA, 2016.08-2017.12 <small>(graduate half year in advance)</small>
-* B.S. <strong>Zhejiang University</strong>, Hangzhou, P.R. China, 2012.09-2016.07
+* B.S. <strong>Zhejiang University</strong>, Hangzhou, China, 2012.09-2016.07
 
 <small>You can also download my academic transcript here [[ZJU](/files/cv/zju_transcript.pdf)], [[CMU](/files/cv/cmu_transcript.pdf)].</small>
 
@@ -22,8 +23,8 @@ Work experience
 ======
 * KooLab, Hangzhou Manycore Tech Co., Ltd
   * Research Engineer, 2018.07-2020.05
-  * Senior Research Engineer, 2020.05-present
-  * Web Rendering Team Manager, 2021.07-present
+  * Senior Research Engineer, 2020.05-2023.08
+  * Web Rendering Team Manager, 2021.07-2023.08
 
 Research
 ======
