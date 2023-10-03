@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a team manager, engineer and researcher at [Manycore Tech Inc.](https://www.kujiale.com/). I obtained my master’s degree from [Carnegie Mellon University](https://www.cmu.edu/) in Pittsburgh, PA. Before that, I received my bachelor’s degree from [Zhejiang University](https://www.zju.edu.cn/). I am very fortunate to work in ZJU-Kujiale Joint Lab of CG&AI with [Prof. Wang Rui](http://www.cad.zju.edu.cn/home/rwang/)
+I am currently a PhD student in [City University of Hong Kong](https://www.cityu.edu.hk/). Before that I was a team manager, engineer and researcher at [Manycore Tech Inc.](https://www.kujiale.com/). I obtained my master’s degree from [Carnegie Mellon University](https://www.cmu.edu/) in Pittsburgh, PA. Before that, I received my bachelor’s degree from [Zhejiang University](https://www.zju.edu.cn/). I am very fortunate to work in ZJU-Kujiale Joint Lab of CG&AI with [Prof. Wang Rui](http://www.cad.zju.edu.cn/home/rwang/)
 
 Research Interests
 ======
-My researh interests includes computer graphics and computer visions. Specifically, I developed a material seamlessly exchange system between renderers and applications by appearance driven methods. I also lead an R&D team to develop a top-class real-time render engine based on the SOTA techniques. I am now interested in high dimensional neural graphics primitives for NeRF applications.
+My research interests includes computer graphics and computer visions. Specifically, I developed a material seamlessly exchange system between renderers and applications by appearance driven methods. I also lead an R&D team to develop a top-class real-time render engine based on the SOTA techniques. I am now interested in high dimensional neural graphics primitives for NeRF applications.
 
 
 <!-- A data-driven personal website
