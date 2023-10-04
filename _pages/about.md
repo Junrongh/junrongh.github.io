@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD student in [City University of Hong Kong](https://www.cityu.edu.hk/), supervised by [Prof. Fu Hongbo](https://scholars.cityu.edu.hk/person/hongbofu). Before that I was a team manager, engineer and researcher at [Manycore Tech Inc.](https://www.kujiale.com/). I was very fortunate to work in ZJU-Kujiale Joint Lab of CG&AI with [Prof. Wang Rui](http://www.cad.zju.edu.cn/home/rwang/). I obtained my master’s degree from [Carnegie Mellon University](https://www.cmu.edu/) in Pittsburgh, PA. Before that, I received my bachelor’s degree from [Zhejiang University](https://www.zju.edu.cn/).
+I am currently a PhD student at [City University of Hong Kong](https://www.cityu.edu.hk/), under the supervision of [Prof. Fu Hongbo](https://scholars.cityu.edu.hk/person/hongbofu). Before that I held positions as a team manager, engineer and researcher at [Manycore Tech Inc.](https://www.kujiale.com/). I was very fortunate to work in ZJU-Kujiale Joint Lab of CG&AI with [Prof. Wang Rui](http://www.cad.zju.edu.cn/home/rwang/). I earned my master’s degree from [Carnegie Mellon University](https://www.cmu.edu/) in Pittsburgh, PA. Prior to that, I completed my bachelor’s degree at [Zhejiang University](https://www.zju.edu.cn/).
+
 
 Research Interests
 ======
